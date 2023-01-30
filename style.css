@@ -91,4 +91,41 @@ button {
   margin: 5px;
   font-size: 20px;
   cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 5px 5px 10px rgba(119, 119, 119, 0.3);
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 15px rgba(119, 119, 119, 0.2);
+}
+
+button:active {
+  transform: scale(1);
+  box-shadow: none;
+}
+
+button#equal {
+  height: 130px;
+  background-color: #d2daff;
+}
+
+/* LIGHT THEME */
+
+.calculator {
+  /* background-color: #ffe1e1; */
+  background-color: #fefcf3;
+}
+
+.calculator #display {
+  color: #354259;
+}
+
+.calculator button.btn-operator {
+  background-color: #ffb9b9;
+}
+
+.calculator button.btn-number {
+  background-color: #ffe1e1;
+  color: #354259;
 }
