@@ -1,14 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   outline: 0;
-  transition: all 0.3 ease;
+  transition: all 1s ease;
+  font-family: 'Itim', cursive, sans-serif;
 }
 
 body {
   background: linear-gradient(to top left, #787a91, #eeeeee);
-  font-family: sans-serif;
 }
 
 body.dark {
@@ -110,8 +112,15 @@ button:active {
 }
 
 button#equal {
-  height: 130px;
+  width: 130px;
 }
+
+/* .zero {
+  width: 130px;
+  text-align: left;
+  padding-left: 22px;
+  padding-right: 22px;
+} */
 
 /* LIGHT THEME */
 
